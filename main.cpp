@@ -8,6 +8,16 @@ int a, S;
   S=a*a;
 return S;
 
+void Trapeze();
+    {
+    cout << "lai uzzināt Tr laukumu uzraksti augstumu un pamati" << endl ;
+    int h,a;
+    cin >> h ;
+    cin >> a ;
+    int STr=a*h;
+    cout << "Trapecijas laukums = " << STr << endl ;
+    }
+
 int main() {
   cout << "Programma pieprasa figūras elementus un aprēķina to laukumu. \n";
   cout << " Nospiediet burtu:\n";
@@ -35,15 +45,7 @@ int main() {
 
   if (user_answer=="Tr"|| user_answer=="tr")
   {
-    int Trapeze();
-    {
-    cout << "lai uzzināt Tr laukumu uzraksti augstumu un pamati" << endl ;
-    int h,a;
-    cin >> h ;
-    cin >> a ;
-    int STr=a*h;
-    cout << STr ;
-    return STr;}
+    Trapeze();
   }
 
   if (user_answer=="R"|| user_answer=="r")
