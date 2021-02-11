@@ -2,7 +2,19 @@
 using namespace std;
 // PROJECTS_1
 
+using namespace std;
+int main()
+{
 
+double s, a, b, c;
+cout << "Puse a="; cin >> a;
+cout << "Puse b=="; cin >> b;
+cout << "Stūris="; cin >> c;
+s = 1.0/2.0 * a*b*sin(c);
+cout << "Trijstūra laukums=" << s<<endl;
+system("pause");
+return 0;
+}
 int main() {
   cout << "Programma pieprasa figūras elementus un aprēķina to laukumu. \n";
   cout << " Nospiediet burtu:\n";
